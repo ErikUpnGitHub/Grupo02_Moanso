@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="datDetalleProduccion.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="datDetalleRequisicion.cs" />
     <Compile Include="datOrdenProduccion.cs" />
+    <Compile Include="datOrdenRequisicion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsignarMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignarMateriaPrima.Designer.cs">
+      <DependentUpon>AsignarMateriaPrima.cs</DependentUpon>
+    </Compile>
     <Compile Include="AsignarProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +64,25 @@
     <Compile Include="OrdenProduccion.Designer.cs">
       <DependentUpon>OrdenProduccion.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrdenRequisicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrdenRequisicion.Designer.cs">
+      <DependentUpon>OrdenRequisicion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AsignarMateriaPrima.resx">
+      <DependentUpon>AsignarMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AsignarProductos.resx">
       <DependentUpon>AsignarProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrdenProduccion.resx">
       <DependentUpon>OrdenProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdenRequisicion.resx">
+      <DependentUpon>OrdenRequisicion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
