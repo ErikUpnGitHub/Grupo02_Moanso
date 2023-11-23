@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Grupo02_Moanso
 {
-    public partial class Form1 : Form
+    public partial class AsignarProductos : Form
     {
-        public Form1()
+        public AsignarProductos()
         {
             InitializeComponent();
         }
