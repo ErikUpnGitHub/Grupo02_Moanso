@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="logDetalleProduccion.cs" />
+    <Compile Include="logDetalleRequisicion.cs" />
     <Compile Include="logOrdenProduccion.cs" />
+    <Compile Include="logOrdenRequisicion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
